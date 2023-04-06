@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#text{
+    margin-right: 1rem;
+    letter-spacing: 2px;
+}
+#text:hover{
+    color: rgb(105, 105 , 247);
+}
+.for-bg{
+    padding: 3px 10px;
+    background-color: black;
+    margin: 180px auto;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    /* justify-content: space-between; */
+    /* width: 50%; */
+}
+.button{
+    margin: 0 auto;
+    display: flex;
+    padding: 5px 15px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: chartreuse;
+    margin-bottom: 200px;
+    position: relative;
+    bottom: 130px;
+}
+.button:hover{
+    background-color: rgb(255, 0, 13);
+}
+@media screen and (max-width:360px) {
+    .container{
+        margin-top: 50px;
+    }
+    .nav-link{
+        background-color: aqua;
+        position: relative;
+        bottom: 200px;
+        
+
+    }
+    .for-bg{
+        width: 55%;
+    
+    }
+    
+}
